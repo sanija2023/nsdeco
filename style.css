@@ -6,10 +6,12 @@ body{
     border-radius: 50px; 
     box-shadow:0 4px 30px rgba(255, 255, 255, 0.564); 
     border: ridge;
-    height: 80%;
+    height: 100%;
     background-color:rgba(99, 128, 189, 0.192);
 }
 
+
+/* Card Hover */
 .cardHover{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     overflow: hidden;
@@ -20,3 +22,76 @@ body{
     transform: translateY(-10px);
     box-shadow: 0 8px 16px rgba(0, 255, 55, 0.771);
 }
+
+
+/* Image size */
+.imageFormat{
+    border-radius: 10px;
+}
+
+.cont{
+    width: 300px;  /* Set the width of the container */
+    height: 245px; /* Set the height of the container */
+    
+}
+
+
+/* Copy Product ID */
+
+.copy{
+    
+    color: rgb(0, 0, 0); 
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    background: white;
+    cursor: pointer;
+
+}
+
+
+
+/* when copy-icon is active */
+.copy-icon:active{
+    color: white;
+}
+
+/* When copy button is active */
+.copy:active{
+    background: black;
+}
+
+/* When copy button is disabled */
+.copy:disabled{
+
+    background: #a4a1a1;
+    cursor: not-allowed;
+    
+
+
+}
+
+
+
+
+/* Single Product View Main Image Format  */
+
+.SingleProViewMainImage{
+
+    border-radius: 20px;
+    border: 1px solid white;
+    box-shadow:0 4px 30px rgba(255, 255, 255, 0.564); 
+
+}
+
+.about{
+    color: grey;
+    cursor: not-allowed;
+}
+
+.ourCategories{
+    cursor: not-allowed;
+}
+
+
+ 
